@@ -1,0 +1,11 @@
+insert into Users values(1001, sysdate(), 'AA');
+insert into Users values(1002, sysdate(), 'BB');
+insert into Users values(1003, sysdate(), 'CC');
+
+insert into post values(2001, 'first', 1001);
+insert into post values(2002, 'second', 1001);
+
+select * from post;
+
+
+https://github.com/Shobha11051992/RESTfullSevicesRanga.git
